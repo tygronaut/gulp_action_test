@@ -6,6 +6,10 @@ module.exports = function () {
   this.multiply = function (a, b) {
     return a * b;
   };
+  
+  this.subtract = function (a, b) {
+    return a - b;
+  };
 
   this.fibonacci = function (length) {
     var sequence = [0, 1];
