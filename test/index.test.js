@@ -24,6 +24,14 @@ describe('MathLib', () => {
       expect(result).toBe(16);
     });
   });
+
+    describe('multiply', () => {
+    it('multiply 5 times 6', () => {
+      const mathLib = new MathLib();
+      const result = mathLib.multiply(5, 6);
+      expect(result).toBe(30);
+    });
+  });
   
   describe('fibonacci', () => {
     it('generates a valid fibonacci sequence', () => {
