@@ -1,0 +1,21 @@
+{
+  "name": "action_test",
+  "version": "1.0.0",
+  "description": "Simple action test",
+  "main": "src/js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/tygronaut/gulp_action_test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "tygronaut",
+  "license": "ISC"
+}
