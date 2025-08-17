@@ -1,4 +1,5 @@
 const MathLib = require('../src');
+const jest = require('jest');
 
 describe('MathLib', () => {
   describe('add', () => {
