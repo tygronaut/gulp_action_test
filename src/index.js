@@ -10,7 +10,11 @@ module.exports = function () {
   this.subtract = function (a, b) {
     return a - b;
   };
-
+  
+  this.divide = function (a, b) {
+    return a / b;
+  };
+  
   this.fibonacci = function (length) {
     var sequence = [0, 1];
     for (var i = 2; i <= length; ++i) {
