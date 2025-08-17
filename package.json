@@ -17,5 +17,8 @@
     "test"
   ],
   "author": "tygronaut",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies":{
+    "jest": "^27.3.1"
+  }
 }
