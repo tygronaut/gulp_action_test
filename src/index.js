@@ -1,1 +1,1 @@
-import * from "../functions/functions.js"
+import * as functions from "../functions/functions.js"
