@@ -1,4 +1,4 @@
-const MathLib = require('../src/functions');
+const MathLib = require('../src/functions/functions.js');
 describe('MathLib', () => {
   describe('add', () => {
     it('adds two numbers together', () => {
