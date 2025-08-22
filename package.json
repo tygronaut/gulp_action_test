@@ -2,7 +2,6 @@
   "name": "action_test",
   "version": "1.0.0",
   "description": "Simple action test",
-  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
