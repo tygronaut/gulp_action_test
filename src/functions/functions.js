@@ -1,23 +1,25 @@
-export function add(a, b) {
+function add(a, b) {
   return a + b;
 };
 
-export function multiply(a, b) {
+function multiply(a, b) {
   return a * b;
 };
 
-export function subtract(a, b) {
+function subtract(a, b) {
   return a - b;
 };
 
-export function divide(a, b) {
+function divide(a, b) {
   return a / b;
 };
 
-export function fibonacci(length) {
+function fibonacci(length) {
   var sequence = [0, 1];
   for (var i = 2; i <= length; ++i) {
     sequence[i] = sequence[i - 1] + sequence[i - 2];
   }
   return sequence;
 };
+
+export {add, multiply, subtract, divide, fibonacci};
