@@ -22,4 +22,4 @@ const fibonacci = function (length) {
   return sequence;
 };
 
-module.export = {add, multiply, subtract, divide, fibonacci};
+module.exports = {add, multiply, subtract, divide, fibonacci};
