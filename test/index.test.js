@@ -1,4 +1,5 @@
-const functions = require('../src/functions/functions.js');
+import {add, multiply, fibonacci} from '../src/functions/functions.js';
+
 describe('functions', () => {
   describe('add', () => {
     it('adds two numbers together', () => {
