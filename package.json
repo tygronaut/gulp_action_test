@@ -1,14 +1,15 @@
 {
   "name": "action_test",
   "version": "1.0.0",
+  "type": "module",
+  "main": "",
   "description": "Simple action test",
   "directories": {
     "test": "test"
   },
-  "type": "module",
   "scripts": {    
-    "test": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest ",
-    "jest": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest "
+    "test": "jest ",
+    "jest": "jest "
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,9 @@
   ],
   "author": "tygronaut",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^30.0.5"
+  "dependencies": {    
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }
