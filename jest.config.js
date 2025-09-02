@@ -12,6 +12,6 @@ export default {
     collectCoverageFrom: ["src/**/*.js"],
 
     // ✅ Helps Jest resolve files correctly
-    moduleDirectories: ["node_modules", "src"],
+    moduleDirectories: ["node_modules", "src"]
 
 };
