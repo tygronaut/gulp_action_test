@@ -3,7 +3,7 @@ export default {
     testEnvironment: "node", // Ensures Jest runs in a Node.js environment
     collectCoverage: true, // Enables coverage reporting
     coverageProvider: "v8", // Uses Node's native coverage tool
-    extensionsToTreatAsEsm: [".js"], // Treats .js files as ES modules. {"type": "module"} in package json already takes care of this.
+    // extensionsToTreatAsEsm: [".js"], // Treats .js files as ES modules. {"type": "module"} in package json already takes care of this.
 
     coverageDirectory: "coverage",
     coveragePathIgnorePatterns: ["/node_modules/"],
@@ -12,6 +12,6 @@ export default {
     collectCoverageFrom: ["src/**/*.js"],
 
     // ✅ Helps Jest resolve files correctly
-    moduleDirectories: ["node_modules", "src"],
+    moduleDirectories: [ "src"],
 
 };
