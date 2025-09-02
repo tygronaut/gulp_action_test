@@ -8,8 +8,8 @@
     "test": "test"
   },
   "scripts": {    
-    "test": "jest ",
-    "jest": "jest "
+    "test": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest",
+    "jest": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest"
   },
   "repository": {
     "type": "git",
