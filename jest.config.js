@@ -12,6 +12,7 @@ export default {
     collectCoverageFrom: ["src/**/*.js"],
 
     // ✅ Helps Jest resolve files correctly
-    moduleDirectories: [ "src"],
+    moduleDirectories: ["node_modules", "src"],
 
 };
+node --experimental-vm-modules node_modules/jest/bin/jest.js
