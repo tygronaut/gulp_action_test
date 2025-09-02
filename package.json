@@ -7,8 +7,8 @@
   },
   "type": "module",
   "scripts": {    
-    "test": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npm jest",
-    "jest": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npm jest"
+    "test": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npm jest ",
+    "jest": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npm jest "
   },
   "repository": {
     "type": "git",
