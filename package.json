@@ -2,12 +2,13 @@
   "name": "action_test",
   "version": "1.0.0",
   "description": "Simple action test",
-  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "jest"
+  "type": "module",
+  "scripts": {    
+    "test": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest",
+    "jest": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,6 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^30.0.5"
-  }
+  },
+  "devDependencies": {}
 }
