@@ -15,4 +15,3 @@ export default {
     moduleDirectories: ["node_modules", "src"],
 
 };
-node --experimental-vm-modules node_modules/jest/bin/jest.js
